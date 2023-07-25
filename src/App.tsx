@@ -1,21 +1,20 @@
 import { Counter } from "./components/Counter";
+import { TimerPadre } from "./components/TimerPadre";
 import { Usuario } from "./components/Usuario";
 
 function App() {
-
-
   return (
-
-
-
-    <div className="App">
+    <>
       <h1>React + TypeScript</h1>
-      <hr/>
-
+      <hr />
+      <h2>useState</h2>
       <Counter />
       <Usuario />
 
-    </div>
+      <h2>useEffect - useRef</h2>
+      <hr />
+      <TimerPadre />
+    </>
   );
 }
 
